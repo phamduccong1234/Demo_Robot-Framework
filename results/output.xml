@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.1 (Python 3.13.5 on win32)" generated="2025-07-02T17:13:22.991358" rpa="false" schemaversion="5">
+<suite id="s1" name="TestProject" source="D:\PythonProject\TestProject">
+<suite id="s1-s1" name="Testcases" source="D:\PythonProject\TestProject\testcases">
+<suite id="s1-s1-s1" name="TC1" source="D:\PythonProject\TestProject\testcases\TC1.robot">
+<test id="s1-s1-s1-t1" name="LoginTest" line="7">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-07-02T17:13:24.443525" level="INFO">Opening browser 'chrome' to base url 'https://demo.nopcommerce.com/'.</msg>
+<arg>https://demo.nopcommerce.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-07-02T17:13:24.441765" elapsed="10.313768"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2025-07-02T17:13:34.759817" level="INFO">Clicking link 'xpath://a[@class="ico-login"]'.</msg>
+<arg>xpath://a[@class="ico-login"]</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2025-07-02T17:13:34.756356" elapsed="2.935276"/>
+</kw>
+<status status="PASS" start="2025-07-02T17:13:24.438628" elapsed="13.254131"/>
+</test>
+<status status="PASS" start="2025-07-02T17:13:23.081618" elapsed="14.613649"/>
+</suite>
+<status status="PASS" start="2025-07-02T17:13:23.075594" elapsed="14.623889"/>
+</suite>
+<status status="PASS" start="2025-07-02T17:13:23.013593" elapsed="14.690217"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="TestProject" id="s1" pass="1" fail="0" skip="0">TestProject</stat>
+<stat name="Testcases" id="s1-s1" pass="1" fail="0" skip="0">TestProject.Testcases</stat>
+<stat name="TC1" id="s1-s1-s1" pass="1" fail="0" skip="0">TestProject.Testcases.TC1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

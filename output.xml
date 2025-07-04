@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.1 (Python 3.13.5 on win32)" generated="2025-07-03T15:31:41.077937" rpa="false" schemaversion="5">
+<suite id="s1" name="radioButtons" source="D:\PythonProject\TestProject\testcases\radioButtons.robot">
+<test id="s1-t1" name="Testing Radio Button And Checkboxes" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-07-03T15:31:41.649211" level="INFO">Opening browser 'chrome' to base url 'https://petstore.octoperf.com/actions/Catalog.action'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-07-03T15:31:41.648941" elapsed="5.285944"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-07-03T15:31:46.935536" elapsed="0.121655"/>
+</kw>
+<kw name="Set Selenium Speed" owner="SeleniumLibrary">
+<arg>1 seconds</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" start="2025-07-03T15:31:47.057624" elapsed="0.000453"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2025-07-03T15:31:47.058959" level="INFO">Clicking link 'xpath://a[text() = 'Sign In']'.</msg>
+<arg>xpath://a[text() = 'Sign In']</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2025-07-03T15:31:47.058453" elapsed="3.633118"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2025-07-03T15:31:50.692218" level="INFO">Clicking link 'xpath://a[text() = 'Register Now!']'.</msg>
+<arg>xpath://a[text() = 'Register Now!']</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2025-07-03T15:31:50.692003" elapsed="3.478727"/>
+</kw>
+<kw name="Select Checkbox" owner="SeleniumLibrary">
+<msg time="2025-07-03T15:31:54.171301" level="INFO">Selecting checkbox 'account.listOption'.</msg>
+<arg>account.listOption</arg>
+<doc>Selects the checkbox identified by ``locator``.</doc>
+<status status="PASS" start="2025-07-03T15:31:54.171136" elapsed="4.120637"/>
+</kw>
+<kw name="Select Checkbox" owner="SeleniumLibrary">
+<msg time="2025-07-03T15:31:58.292753" level="INFO">Selecting checkbox 'account.bannerOption'.</msg>
+<arg>account.bannerOption</arg>
+<doc>Selects the checkbox identified by ``locator``.</doc>
+<status status="PASS" start="2025-07-03T15:31:58.292425" elapsed="4.119299"/>
+</kw>
+<kw name="Unselect Checkbox" owner="SeleniumLibrary">
+<msg time="2025-07-03T15:32:02.412362" level="INFO">Unselecting checkbox 'account.listOption'.</msg>
+<arg>account.listOption</arg>
+<doc>Removes the selection of checkbox identified by ``locator``.</doc>
+<status status="PASS" start="2025-07-03T15:32:02.412119" elapsed="4.058905"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-07-03T15:32:06.471495" elapsed="3.138822"/>
+</kw>
+<status status="PASS" start="2025-07-03T15:31:41.648022" elapsed="27.963029"/>
+</test>
+<status status="PASS" start="2025-07-03T15:31:41.081002" elapsed="28.531418"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="radioButtons" id="s1" pass="1" fail="0" skip="0">radioButtons</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
